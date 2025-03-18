@@ -21,7 +21,7 @@ venue:
   arch: "https://mailarchive.ietf.org/arch/browse/spring/"
   github: "buraglio/draft-bdmgct-spring-srv6-security"
   latest: "https://buraglio.github.io/draft-bdmgct-spring-srv6-security/draft-bdmgct-spring-srv6-security.html"
-
+BKH> Please change the link above, it's broken.
 author:
  -
     ins: N. Buraglio
@@ -300,7 +300,7 @@ A compromised control plane or management plane can impact the network in variou
 Various attacks which are not specific to SRv6 can be used to compromise networks that deploy SRv6. For example, spoofing is not specific to SRv6, but can be used in a network that uses SRv6. Such attacks are outside the scope of this document.
 
 Because SRv6 is completely reliant on IPv6 for addressing, forwarding, and fundamental networking basics, it is potentially subject to any existing or emerging IPv6 vulnerabilities [RFC9099], however, this is out of scope for this document.
-
+BKH> What about DoS attack type mentioned above? For example, sending dummy/non-existent END.SIDs towards Egress PE?
 # Mitigation Methods {#mitigations}
 
 This section presents methods that can be used to mitigate the threats and issues that were presented in previous sections. This section does not introduce new security solutions or protocols.
@@ -436,4 +436,4 @@ This section lists topics that will be discussed further before deciding whether
 # Acknowledgments
 {:numbered="false"}
 
-The authors would like to acknowledge the valuable input and contributions from Zafar Ali, Andrew Alston, Dale Carder, Bruno Decraene, Dhruv Dhody, Darren Dukes, Joel Halpern, Bruno Hassanov, Alvaro Retana, Eric Vyncke, and Russ White.
+The authors would like to acknowledge the valuable input and contributions from Zafar Ali, Andrew Alston, Dale Carder, Bruno Decraene, Dhruv Dhody, Darren Dukes, Joel Halpern, Boris Hassanov, Alvaro Retana, Eric Vyncke, and Russ White.
